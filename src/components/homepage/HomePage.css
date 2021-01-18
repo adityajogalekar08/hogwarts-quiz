@@ -1,0 +1,67 @@
+/* CSS Variables */
+:root {
+	--primary: #f2f3f4;
+	--dark: #333;
+	--light: #fff;
+	--shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+	--textColor: white;
+	--gryffindor: #740001;
+	--slytherin: #1a472a;
+	--hufflepuff: #ffdb00;
+	--rawenclaw: #0e1a40;
+}
+.wrapper {
+	display: grid;
+	grid-gap: 20px;
+	background: white;
+	margin: 30px 50px;
+	line-height: 1.4;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--dark);
+}
+.top-container {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas:
+		"top-box-a gry sly"
+		"huff raw top-box-f";
+}
+.top-box {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	box-shadow: var(--shadow);
+	padding: 1.5rem;
+	color: var(--textColor) !important;
+}
+.top-box-a {
+	grid-area: top-box-a;
+	border-bottom: 5px solid #daa520;
+	background-color: rgba(218, 165, 32, 0.3);
+}
+.gry {
+	grid-area: gry;
+	border-bottom: 5px solid #a0522d;
+	background-color: var(--gryffindor);
+}
+.sly {
+	grid-area: sly;
+	border-bottom: 5px solid #228b22;
+	background-color: var(--slytherin);
+}
+.huff {
+	grid-area: huff;
+	border-bottom: 5px solid #ffa500;
+	background-color: var(--hufflepuff);
+}
+.raw {
+	grid-area: raw;
+	border-bottom: 5px solid #ffa500;
+	background-color: var(--rawenclaw);
+}
+.top-box-f {
+	grid-area: top-box-f;
+	border-bottom: 5px solid #ffa500;
+	background-color: rgba(255, 165, 0, 0.3);
+}
