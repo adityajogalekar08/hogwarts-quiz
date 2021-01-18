@@ -42,22 +42,22 @@
 }
 .gry {
 	grid-area: gry;
-	border-bottom: 5px solid #a0522d;
+	border-bottom: 5px solid #d3a625;
 	background-color: var(--gryffindor);
 }
 .sly {
 	grid-area: sly;
-	border-bottom: 5px solid #228b22;
+	border-bottom: 5px solid #5d5d5d;
 	background-color: var(--slytherin);
 }
 .huff {
 	grid-area: huff;
-	border-bottom: 5px solid #ffa500;
+	border-bottom: 5px solid #60605c;
 	background-color: var(--hufflepuff);
 }
 .raw {
 	grid-area: raw;
-	border-bottom: 5px solid #ffa500;
+	border-bottom: 5px solid #946b2d;
 	background-color: var(--rawenclaw);
 }
 .top-box-f {
